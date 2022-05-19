@@ -1,3 +1,5 @@
+// Please do not read my code. It's very sloppy.
+
 export default class MainScene {
     gameover = false;
 
