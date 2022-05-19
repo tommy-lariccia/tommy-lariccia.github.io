@@ -1,4 +1,4 @@
-import MainScene from './MainScene.mjs'
+import MainScene from 'MainScene.mjs'
 
 const config = {
     type: Phaser.AUTO,
