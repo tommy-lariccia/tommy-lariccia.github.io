@@ -6,21 +6,21 @@ export default class MainScene {
     constructor() {}
 
     preload() {
-        this.load.image("background", "src/assets/background.png");
-        this.load.image("vivian", "src/assets/vivian.png");
-        this.load.spritesheet("fireball", "src/assets/fireball.png", {
+        this.load.image("background", "./assets/background.png");
+        this.load.image("vivian", "./assets/vivian.png");
+        this.load.spritesheet("fireball", "./assets/fireball.png", {
             frameWidth: 1024,
             frameHeight: 1024
         });
-        this.load.spritesheet("skull", "src/assets/skull.png", {
+        this.load.spritesheet("skull", "./assets/skull.png", {
             frameWidth: 1024,
             frameHeight: 1024
         });
-        this.load.spritesheet("vivhb", "src/assets/VivianHealthBar.png", {
+        this.load.spritesheet("vivhb", "./assets/VivianHealthBar.png", {
             frameWidth: 1024,
             frameHeight: 1024
         });
-        this.load.spritesheet("skullhb", "src/assets/SkullHealthBar.png", {
+        this.load.spritesheet("skullhb", "./assets/SkullHealthBar.png", {
             frameWidth: 1024,
             frameHeight: 1024
         });
