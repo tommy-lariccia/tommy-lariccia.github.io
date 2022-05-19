@@ -20,7 +20,7 @@ export default class MainScene {
             frameWidth: 1024,
             frameHeight: 1024
         });
-        this.load.spritesheet("skullhb", "./assets/SkullHealthBar.png", {
+        this.load.spritesheet("skullhb", "./assets/skullHealthBar.png", {
             frameWidth: 1024,
             frameHeight: 1024
         });
